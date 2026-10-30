@@ -1,0 +1,2 @@
+/*! © AurevixWeb. Todos los derechos reservados. Prohibida la copia o reutilización sin autorización. */
+const e='<style>html{touch-action:manipulation;-webkit-tap-highlight-color:transparent}</style><script>addEventListener("gesturestart",function(e){e.preventDefault()},{passive:false})<\/script>';export const conSinZoom=n=>{const t=String(n??"");return/<head[^>]*>/i.test(t)?t.replace(/<head[^>]*>/i,i=>i+e):e+t};
